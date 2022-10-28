@@ -17,14 +17,14 @@ function SideBar() {
     <div>
       <Link className='LogoSide' to='/'><img src={"Log"} alt='Logo'/></Link>
       <ul className="listSide">
-        <li className="item"><Link to={'/Home'}><img className='imgItem' src={ImgHome} alt=''/>Home</Link></li>
-        <li className="item"><Link to={'/Explore'}><img className='imgItem' src={ImgExplore} alt=''/>Explore</Link></li>
-        <li className="item"><Link to={'/Notifications'}><img className='imgItem' src={ImgNotifications} alt=''/>Notifications</Link></li>
-        <li className="item"><Link to={'/Messages'}><img className='imgItem' src={ImgMessages} alt=''/>Messages</Link></li>
-        <li className="item"><Link to={'/Bookmarks'}><img className='imgItem' src={ImgBookmarks} alt=''/>Bookmarks</Link></li>
-        <li className="item"><Link to={'/Lists'}><img className='imgItem' src={ImgLists} alt=''/>Lists</Link></li>
-        <li className="item"><Link to={'/Profile'}><img className='imgItem' src={ImgProfile} alt=''/>Profile</Link></li>
-        <li className="item"><Link to={'/More'}><img className='imgItem' src={ImgMore} alt=''/>More</Link></li>
+        <li className="item"><Link to={'/'}><img className='imgItem' src={ImgHome} alt=''/>Home</Link></li>
+        <li className="item"><Link to={'/'}><img className='imgItem' src={ImgExplore} alt=''/>Explore</Link></li>
+        <li className="item"><Link to={'/'}><img className='imgItem' src={ImgNotifications} alt=''/>Notifications</Link></li>
+        <li className="item"><Link to={'/'}><img className='imgItem' src={ImgMessages} alt=''/>Messages</Link></li>
+        <li className="item"><Link to={'/'}><img className='imgItem' src={ImgBookmarks} alt=''/>Bookmarks</Link></li>
+        <li className="item"><Link to={'/'}><img className='imgItem' src={ImgLists} alt=''/>Lists</Link></li>
+        <li className="item"><Link to={'/'}><img className='imgItem' src={ImgProfile} alt=''/>Profile</Link></li>
+        <li className="item"><Link to={'/'}><img className='imgItem' src={ImgMore} alt=''/>More</Link></li>
       </ul> 
 
       <button className='SideButton'>Tweet</button>
