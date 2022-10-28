@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Log from '/najot talim/react/homework/homework-9/src/assets/img/twitter-logo.svg'
+// import Log from '/najot talim/react/homework/homework-9/src/assets/img/twitter-logo.svg'
 import ImgHome from './img/home.svg'
 import ImgExplore from './img/explore.svg'
 import ImgNotifications from './img/notifications.svg'
@@ -15,7 +15,7 @@ import hamb from './img/hamb.svg'
 function SideBar() {
   return (
     <div>
-      <Link className='LogoSide' to='/'><img src={Log} alt='Logo'/></Link>
+      <Link className='LogoSide' to='/'><img src={"Log"} alt='Logo'/></Link>
       <ul className="listSide">
         <li className="item"><Link to={'/Home'}><img className='imgItem' src={ImgHome} alt=''/>Home</Link></li>
         <li className="item"><Link to={'/Explore'}><img className='imgItem' src={ImgExplore} alt=''/>Explore</Link></li>
